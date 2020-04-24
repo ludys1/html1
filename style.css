@@ -2,3 +2,37 @@
   font-family: 'Comic Neue', arial;
   box-sizing: border-box;
 }
+
+body {
+  background-color: black;
+}
+
+  #wrapper {
+    max-width: 1000px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+
+  }
+  header img {
+    width: 100%;
+    display: block;
+  }
+
+  nav {
+    background-color: darkcyan;
+  }
+
+  a.menu {
+    display: inline-block;
+    width: 24.6%;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  a.menu:hover{
+    background-color: crimson;
+  }
+
+  

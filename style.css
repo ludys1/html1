@@ -22,6 +22,13 @@ body {
     background-color: darkcyan;
   }
 
+  @@media (max-width:800px) {
+    nav a {
+      width: 50%
+    }
+
+  }
+
   a.menu {
     display: inline-block;
     width: 25%;
@@ -29,6 +36,8 @@ body {
     color: white;
     text-decoration: none;
     text-align: center;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
   }
 
   a.menu:hover{
@@ -51,6 +60,7 @@ body {
     margin: 0 25% 40px 25%;
     padding-bottom: 10px;
     border-bottom: solid crimson 5px;
+
   }
 
   img.left {
@@ -65,4 +75,17 @@ body {
     line-height: 25px;
     font-size: 18px;
     padding: 15px 0;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  footer {
+    height: 40px;
+    background-color: darkcyan;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
   }
